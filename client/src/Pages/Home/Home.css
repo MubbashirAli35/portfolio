@@ -1,0 +1,96 @@
+h2 {
+    font-family: Bangers;
+    color: #4623a6;
+}
+
+.footer {
+    background: linear-gradient(#562cc9, #882fcc);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skillsTableContainer {
+    margin-top: -8rem;
+    background-color: #ffffff;
+}
+
+.iconsContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .briefIntroTextContainer {
+        width: 100%;
+    }
+
+    .modal {
+        width: 70vw;
+    }
+
+    .skillsTableColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #bababa;
+    }
+
+    .footerContent {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .briefIntroTextContainer {
+        width: 50%;
+    }
+
+    .skillsTableColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footerContent {
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*.briefIntroTextContainer {
+    width: 50%;
+} */
+
+.briefIntro {
+    background: linear-gradient(#562cc9, #882fcc);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
