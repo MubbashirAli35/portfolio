@@ -19,10 +19,24 @@ h2 {
     text-align: center;
 }
 
-.skillsTableContainer {
-    margin-top: -8rem;
-    background-color: #ffffff;
+@media (max-height: 600px) {
+    .skillsTableContainer {
+        margin-top: -3rem;
+        background-color: #ffffff;
+    }
 }
+
+@media (min-height: 601px) {
+    .skillsTableContainer {
+        margin-top: -8rem;
+        background-color: #ffffff;
+    }
+}
+
+/*.skillsTableContainer {
+    margin-top: -2rem;
+    background-color: #ffffff;
+} */
 
 .iconsContainer {
     display: flex;
